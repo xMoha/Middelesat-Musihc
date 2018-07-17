@@ -278,7 +278,7 @@ ${prefix}queue ⇏ لمعرفة قآئمة التشغيل
    }); 
 
 client.on("message", message => {
- if (message.content === `${prefix}vhelp`) {
+ if (message.content === `${prefix}vhelp2`) {
  	
   const embed = new Discord.RichEmbed() 
       .setColor("#000000")
